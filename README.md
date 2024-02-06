@@ -1,5 +1,7 @@
 # SUPARRAY
 
+![version](https://img.shields.io/npm/v/suparray)
+
 A Javascript package for array utils.
 
 ## Install Package
@@ -8,59 +10,42 @@ A Javascript package for array utils.
 
 ## Utils
 
-- Shuffle
-- Bubble Sort
-- Selection Sort
-- Merge Sort
+- [Shuffle](#shuffle)
+- [Bubble Sort](#bubble-sort)
+- [Selection Sort](#selection-sort)
+- [Merge Sort](#merge-sort)
 
 ## Examples
 
 ### Shuffle
-
 ```javascript
-    const {shuffle} = require("suparray")
+const array = [1,5,6,3,8];
 
-    const array = [1,5,6,3,8];
-    
-    const shuffleArray = shuffle(array);
-
-    console.log(shuffleArray);
+const shuffleArray = shuffle(array); // [3,8,6,1,5]
 ```
 
 ### Bubble Sort
 
 ```javascript
-    const {bubbleSort} = require("suparray")
+const array = [1,5,6,3,8];
 
-    const array = [1,5,6,3,8];
-    
-    const bubbleSortArray = bubbleSort(array);
-
-    console.log(bubbleSortArray);
+const bubbleSortArray = bubbleSort(array); // [1,3,5,6,8]
 ```
 
 ### Selection Sort
 
 ```javascript
-    const {selectionSort} = require("suparray")
+const array = [1,5,6,3,8];
 
-    const array = [1,5,6,3,8];
-    
-    const selectionSortArray = selectionSort(array);
-    
-    console.log(selectionSortArray);
+const selectionSortArray = selectionSort(array); //[1,3,5,6,8]
 ```
 
 ### Merge Sort
 
 ```javascript
-    const {mergeSort} = require("suparray")
+const array = [1,5,6,3,8];
 
-    const array = [1,5,6,3,8];
-    
-    const mergeSortArray = mergeSort(array);
-
-    console.log(mergeSortArray);
+const mergeSortArray = mergeSort(array); // [1,3,5,6,8]
 ```
 
 ## Github

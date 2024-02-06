@@ -1,6 +1,6 @@
 {
   "name": "suparray",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "description": "Array utility functions",
   "main": "index.js",
   "keywords": [
