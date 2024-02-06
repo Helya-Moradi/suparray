@@ -1,18 +1,12 @@
 # SUPARRAY
 
----
-
 A Javascript package for array utils.
 
 ## Install Package
 
----
-
 `npm i suparray`
 
 ## Utils
-
----
 
 - Shuffle
 - Bubble Sort
@@ -20,8 +14,6 @@ A Javascript package for array utils.
 - Merge Sort
 
 ## Examples
-
----
 
 ### Shuffle
 
@@ -72,8 +64,6 @@ A Javascript package for array utils.
 ```
 
 ## Github
-
----
 
 [Github](https://github.com/Helya-Moradi/suparray)
 
